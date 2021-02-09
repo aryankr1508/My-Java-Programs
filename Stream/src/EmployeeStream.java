@@ -19,7 +19,7 @@ class Employee{
 }
 public class EmployeeStream {
 	public static void main(String[] args) {
-		Employee[] employee= {new Employee(1000,"Tushar",1000000),new Employee(2000,"Tushar Malviya",222783), new Employee(938724,"Ramji",3904)};
+		Employee[] employee= {new Employee(1000,"Aryan",1000000),new Employee(2000,"Aryan Kumar",222783), new Employee(938724,"Naman",39004)};
 		
 		Stream<Employee> enpstream=Arrays.stream(employee);
 		enpstream.forEach(p->p.showData());
